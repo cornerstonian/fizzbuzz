@@ -4,12 +4,12 @@ def fizzbuzz
 
     case
     when number % 15 == 0
-       puts "FizzBuzz"
+       print "FizzBuzz"
      when number % 5 == 0
-       puts "Buzz"
+       print "Buzz"
      when number % 3 == 0
-       puts "Fizz"
-     else puts number
+       print "Fizz"
+     else print number
    end
  end
 end
